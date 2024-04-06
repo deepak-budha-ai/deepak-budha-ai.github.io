@@ -1,7 +1,7 @@
 // set up canvas
 
-const canvas = document.querySelector("canvas");
-const ctx = canvas.getContext("2d");
+const para1 = document.querySelector(".player1");
+const para2 = document.querySelector(".player2");
 
 const width = (canvas.width = window.innerWidth);
 const height = (canvas.height = window.innerHeight);
