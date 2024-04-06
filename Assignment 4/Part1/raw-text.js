@@ -16,9 +16,7 @@ const insertX = ['Willy the Goblin', 'Big Daddy', 'Father Christmas'];
 
 const insertY = ['the soup kitchen','Disneyland', 'the White House'];
 
-spontaneously combusted
-melted into a puddle on the sidewalk
-turned into a slug and crawled away
+const insertZ = ['spontaneously combusted','melted into a puddle on the sidewalk','turned into a slug and crawled away'];
 
 3. EVENT LISTENER AND PARTIAL FUNCTION DEFINITION
 
