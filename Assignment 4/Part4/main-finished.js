@@ -64,6 +64,11 @@ Ball.prototype.collision = function () {
   }
 };
 
+function Blackhole(x, y, velX, velY, color, size, exist) {
+  Shape.call(this, x, y, 20, 20, exist);
+  this.color = "white";
+  this.size = 15;
+}
 
 // function to generate random RGB color value
 
