@@ -3,8 +3,12 @@
 const para1 = document.querySelector(".player1");
 const para2 = document.querySelector(".player2");
 
+const canvas = document.querySelector("canvas");
+const ctx = canvas.getContext("2d");
+
 const width = (canvas.width = window.innerWidth);
 const height = (canvas.height = window.innerHeight);
+
 
 // function to generate random number
 
