@@ -16,6 +16,18 @@ function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
+function Shape(x, y, velX, velY, exist) {
+  this.x = x;
+  this.y = y;
+  this.velX = velX;
+  this.velY = velY;
+  this.exist = exist;
+}
+function Ball(x, y, velX, velY, color, size, exist) {
+  Shape.call(this, x, y, velX, velY, exist);
+  this.color = color;
+  this.size = size;
+}
 
 // function to generate random RGB color value
 
