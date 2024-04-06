@@ -14,9 +14,7 @@ const storyText = 'It was 94 fahrenheit outside, so :insertx: went for a walk. W
 
 const insertX = ['Willy the Goblin', 'Big Daddy', 'Father Christmas'];
 
-the soup kitchen
-Disneyland
-the White House
+const insertY = ['the soup kitchen','Disneyland', 'the White House'];
 
 spontaneously combusted
 melted into a puddle on the sidewalk
